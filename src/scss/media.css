@@ -1,0 +1,263 @@
+@media (max-width: 1371px) {
+  .header__middle {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1201px) {
+  .main__img1 {
+    position: absolute;
+    right: 150px;
+    top: 100px;
+  }
+  .main__img2 {
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+  }
+  .main__img3 {
+    position: absolute;
+    left: 650px;
+    top: 400px;
+  }
+  .pos1 {
+    right: 30%;
+  }
+}
+
+@media (max-width: 1134px) {
+  .header__middle {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header__middle {
+    padding: 0 30px;
+  }
+  .nav-link a {
+    margin-left: 20px;
+  }
+  .section__right {
+    padding: 20px;
+    margin: 300px auto;
+  }
+  .slider {
+    position: relative;
+    top: -50px;
+  }
+  .pos1 {
+    right: 28%;
+  }
+  .pos2 {
+    right: -400px;
+  }
+  .pos6 {
+    right: 950px;
+  }
+}
+
+@media (max-width: 891px) {
+  .slider__middle {
+    display: none;
+  }
+  .slider {
+    position: relative;
+    top: 30px;
+    min-height: 100px;
+  }
+  .slider__card {
+    width: 80%;
+  }
+  .info {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 860px) {
+  .header__middle {
+    padding: 0;
+  }
+  .nav-link a {
+    margin-left: 20px;
+  }
+  .header__right p {
+    font-size: 14px;
+  }
+  .main__left h1 {
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 791px) {
+  .nav-link a {
+    font-size: 14px;
+  }
+  .header__right p::before {
+    display: none;
+  }
+  .header__left__logo2 {
+    padding-left: 50px;
+  }
+  .header__right p {
+    font-size: 12px;
+  }
+  .main__img1 {
+    position: absolute;
+    right: 150px;
+    top: 0;
+  }
+  .main__img2 {
+    display: none;
+  }
+  .main__img3 {
+    position: absolute;
+    left: 400px;
+    top: 300px;
+  }
+  .main {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 731px) {
+  .pos1 {
+    right: 20%;
+  }
+  .pos2 {
+    right: -400px;
+  }
+  .pos6 {
+    right: 650px;
+  }
+}
+
+@media (max-width: 681px) {
+  .header {
+    height: 50px;
+  }
+  .header__middle, .header__right, .main__phone {
+    display: none;
+  }
+  .header__nav {
+    display: block;
+  }
+  .header__left {
+    position: absolute;
+    left: 30px;
+  }
+  .main__content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .main__right__logo {
+    margin-bottom: 30px;
+  }
+  .main__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__left h1 {
+    text-align: center;
+  }
+  .main__img1 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 150px;
+    top: 300px;
+  }
+  .main__img3 {
+    position: absolute;
+    left: 150px;
+    top: 600px;
+  }
+}
+
+@media (max-width: 562px) {
+  .info__list {
+    margin-left: 50px;
+  }
+  .pos1 {
+    right: 5%;
+  }
+  .pos2 {
+    right: -500px;
+  }
+  .pos6 {
+    right: 520px;
+  }
+  .slider__card {
+    padding: 10px 20px;
+  }
+  .slider__card img {
+    width: 52px;
+    height: 52px;
+    margin-right: 20px;
+  }
+  .image {
+    /* margin-right: 0;
+    margin-left: 0; */
+  }
+}
+
+@media (max-width: 421px) {
+  .main__left h1 {
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .main__left {
+    align-items: flex-start;
+  }
+  .main__left__bottom {
+    position: relative;
+    top: 50px;
+    right: 0;
+  }
+  .main__img1, .main__img3 {
+    display: none;
+  }
+  .section__text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .info {
+    border-top: 1px solid #E3E3E3;
+    padding-top: 60px;
+    margin-top: 40px;
+  }
+  .info__list {
+    margin-left: 20px;
+  }
+  .info__list__card {
+    margin-bottom: 0;
+  }
+  .info__list__title {
+   font-size: 22px;
+  }
+}
+
+@media (max-width: 371px) {
+  .info {
+    margin-top: 120px;
+    padding-top: 40px;
+  }
+  .slider__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .slider__card div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .slider__card p {
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+  }
+}
